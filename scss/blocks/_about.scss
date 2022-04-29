@@ -1,0 +1,83 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.cardList {
+    padding: 0;
+    list-style: none;
+    width: 990px;
+    height: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    // border: 2px solid black;
+    margin: 0;
+    background-color: transparent;
+}
+
+
+.cardItem {
+    width: 80px;
+    height: 80px;
+    // border: 1px solid rgb(17, 17, 17);
+    margin: 0;
+    text-align: center;
+    background-color: transparent;
+}
+
+.itemBox:hover{
+    outline: 3px solid rgb(243, 0, 0);
+}
+
+.itemImg {
+    width: 70px;
+    height: 70px;
+}
+
+.innerBox {
+    width: 70px;
+    height: 70px;
+}
+
+.itemBox {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(252, 219, 149);
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+}
+
+.timeBox {
+    border: 2px solid #333;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.resultBox {
+    border: 2px solid #333;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.timer .bx {
+    color: rgb(252, 227, 0);
+    font-size: 60px;
+}
+
+.start .bx {
+    color: rgb(253, 208, 7);
+    font-size: 60px;
+}

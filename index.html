@@ -5,19 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lesson</title>
-    <link
-      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/flexboxgrid.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/main.min.css" />
   </head>
-
   <body>
+    <div class="container">
+      <div class="result">
+        <span class="timer"><i class='bx bxs-timer'></i></span>
+        <div class="timeBox">
+          <p>time</p>
+        </div>
+        <span class="start"><i class='bx bxs-star'></i></span>
+        <div class="resultBox">
+          <p class="resultWin">rend</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="btnParent">
+            <ul class="cardList">
+            </ul>
+        </div>
+    </div>
+    <div>
+      <h2 class="error"></h2>
+    </div>
+    </div>
+
+    <script src="js/obj.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
